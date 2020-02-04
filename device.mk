@@ -91,6 +91,10 @@ PRODUCT_PACKAGES += \
     SecureElement \
     Tag
 
+# Slider handler
+PRODUCT_PACKAGES += \
+    KeyHandler
+
 # Telephony
 PRODUCT_PACKAGES += \
     telephony-ext
