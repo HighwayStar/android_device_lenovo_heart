@@ -78,6 +78,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/goodix_ts.kl:system/usr/keylayout/goodix_ts.kl \
     $(LOCAL_PATH)/keylayout/slip-cover.kl:system/usr/keylayout/slip-cover.kl
 
+# Light
+PRODUCT_PACKAGES += \
+    android.hardware.light@2.0-service.heart
+
 # Livedisplay
 PRODUCT_PACKAGES += \
     lineage.livedisplay@2.0-service-sdm
